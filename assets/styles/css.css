@@ -41,9 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	font-family: 'Kaushan Script', cursive;
    	text-align: center;
-
 }
-
 
 .intro__title{
 	color: #fff ;
@@ -61,8 +59,6 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 60px auto;
 
 	background-color: #fff;
-
-
 }
 
 .intro__inner{
@@ -247,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 	width: 60px;
 	height: 3px;
-	margin: 30px auto;
+	margin: 42px auto;
 
 	background-color: #f38181 ;
 
@@ -352,5 +348,33 @@ h1, h2, h3, h4, h5, h6 {
 .stat__text{
 	font-size: 14px;
 	text-transform: uppercase;
+
+}
+/* Services */
+
+.services{
+	margin-top: 67px;
+	display: flex;
+}
+.services__item{
+	flex: 1 1 0;
+	position: relative;
+	padding-left: 90px;
+}
+.services__icon{
+	top: 0;
+	left: 29px;
+	z-index: 1;
+	position: absolute;
+}
+.services__title{
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #333;
+	text-transform: uppercase;
+}
+.services__text{
+	font-size: 14px;
+	color: #999;
 
 }
