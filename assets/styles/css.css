@@ -173,7 +173,7 @@ hr {
 
 /* Slider */
 .slider{
-	margin-top: 20px;
+	margin-top: 50px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -196,25 +196,24 @@ hr {
 
 .slider__item.active{
 	opacity: 1;
+	
 
 }
 
-.slider__item.active:before{
+.slider__item.active:hover::after{
 	content: "";
 	display: block;
-	width: 70px;
+	width: 100%;
 	height: 3px;
 
-	background-color: #f38181;
-     
+	
 
+	background-color: #f38181;
 	position: absolute;
 	top: -3px;
 	left: 0;
 	z-index: 1;
-
 }
-
 /* Section */
 
 .section{
@@ -366,7 +365,8 @@ hr {
 .services__item{
 	flex: 1 1 0;
 	position: relative;
-	padding-left: 90px;
+	padding-left: 80px;
+	padding-right: 30px;
 }
 .services__icon{
 	top: 0;
