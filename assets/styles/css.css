@@ -105,25 +105,25 @@ hr {
 
 .nav{
 	font-size: 14px;
-	/* текст с заглавной буквы*/
+	
 	text-transform: uppercase;
 }
 
 .nav__link {
-	/*расположение блоков в строку*/
+	
 	display: inline-block;
 	vertical-align: top;
-	/*отступы*/
+	
 	margin: 10px;
 	position: relative;
 	color: #fff;
 	text-decoration: none;
 
-	/* плавность */
+	
 	transition: color .2s linear;
 
 }
-/* Смена цвета текста при наведении мышью*/
+
 .nav__link:hover {
 	color: #fce38a ;
 }
@@ -220,6 +220,7 @@ hr {
 	padding: 80px 0;
 }
 
+
 .section__header{
 
 	width: 100%;
@@ -227,6 +228,13 @@ hr {
 	margin: 0 auto 40px;
 
 	text-align: center;
+}
+.section__devices{
+	padding: 0;
+	background: url("../img/images/backgroung-present_06.jpg")
+	no-repeat center;
+	background-size: cover;
+	widows: 100%;
 }
 
 .section__suptitle{
@@ -263,7 +271,7 @@ hr {
 }
 
 
-/* About */
+
 
 .about{
 	display: flex;
@@ -276,22 +284,22 @@ hr {
     position: relative;
 	background-color: #95e1d3;
 }
-/* Анимация */
+
 .about__igm{
     transition: transform .2s linear;
 	background: linear-gradient(to bottom, #f38181, #fce38a);
 }
 
-/* Анимация */
+
 .about__item:hover .about__igm {
 	transform: translate3d( -10px, -10px, 0);
 }
-/* Анимация */
+
 .about__item:hover .about__igm img {
 	opacity: .1;
 
 }
-/* Анимация */ 
+
 .about__igm img {
 	display: block;
 	transition: opacity .1s linear;
@@ -346,7 +354,6 @@ hr {
 }
 
 .stat__count{
-	font-family: ;
 	font-size: 72px;
 	font-weight: bold; 
 }
@@ -384,4 +391,21 @@ hr {
 	font-size: 14px;
 	color: #999;
 
+}
+
+/* Devices*/
+.devices{
+	max-width: 600px ;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.devices__item{
+	display: block;
+}
+.devices__item--iphone{
+	position: absolute;
+	bottom:-60px;
+	z-index: 1;
+	right: 0;
 }
